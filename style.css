@@ -1,3 +1,57 @@
 .d-block{
     filter: brightness(40%);
 }
+
+.foter-h{
+    color: rgb(90, 143, 227);
+    text-align: center;
+    position: relative;
+}
+
+
+
+.footer1{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+
+
+}
+.footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    color: rgb(181, 176, 169);
+}
+
+.footer > li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.social {
+    margin: 50px auto;
+}
+
+.social-menu{
+    color: rgb(154, 28, 60);
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+.social-menu > li {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.social-menu > li:hover {
+    color: aliceblue;
+}
